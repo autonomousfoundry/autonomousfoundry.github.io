@@ -24,4 +24,8 @@
     = javascript_include_tag :all
 
   %body{class: "#{page_classes}"}
-    = yield
+    .container= yield
+
+    %footer.footer
+      .container
+        %p.copyright &copy; 2017 Autonomous Foundry LLC
