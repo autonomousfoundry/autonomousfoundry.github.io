@@ -18,8 +18,19 @@ a {
   color: #669933;
 }
 
-h1 {
-  color: #669933;
+.header {
+  background: #669933;
+  padding: 48px 0;
+  margin-bottom: 40px;
+}
+
+.header h1 {
+  font-size: 48px;
+  color: #fff;
+}
+
+.header p {
+  font-size: 24px;
 }
 
 .footer {
