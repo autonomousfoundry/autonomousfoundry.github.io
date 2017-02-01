@@ -6172,6 +6172,21 @@ button.close {
 @media print {
   .hidden-print {
     display: none !important; } }
+.icon-circled-container {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 4px solid #669933;
+  color: #ffffff;
+  background: #669933;
+  display: inline-table;
+  text-align: center; }
+
+.icon-circled {
+  font-size: 20px;
+  vertical-align: middle;
+  display: table-cell; }
+
 html {
   position: relative;
   min-height: 100%; }
@@ -6195,6 +6210,12 @@ a {
 
 .header p {
   font-size: 24px; }
+
+.gallery {
+  margin: 24px 0 72px 0; }
+
+h3, h4 {
+  text-align: center; }
 
 .footer {
   position: absolute;
