@@ -2,6 +2,7 @@
 @import "normalize";
 @import "bootstrap-sprockets";
 @import "bootstrap";
+@import "icons";
 
 html {
   position: relative;
@@ -31,6 +32,14 @@ a {
 
 .header p {
   font-size: 24px;
+}
+
+.gallery {
+  margin: 24px 0 72px 0;
+}
+
+h3, h4 {
+  text-align: center;
 }
 
 .footer {
